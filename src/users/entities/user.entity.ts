@@ -6,7 +6,7 @@ import {
   CreateDateColumn,
 } from 'typeorm';
 
-// Định nghĩa kiểu ENUM cho cột role
+// Định nghĩa kiểu ENUM cho cột role(các chức năng)
 export enum UserRole {
   BUYER = 'buyer',
   SELLER = 'seller',
